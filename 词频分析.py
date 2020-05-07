@@ -1,4 +1,4 @@
-def filt(s: 'str'):
+def filt(s: str):
     '''
     过滤字符串标点符号
     '''
@@ -11,12 +11,13 @@ def filt(s: 'str'):
     return s
 
 
-l = ['bob','two', 'did', 'twenty', 'our', 'its', 'under', 'sometimes', 'just', "i'm", 'by', 'until', 'be', 'might', 'or',
+l = ['bob', 'two', 'did', 'twenty', 'our', 'its', 'under', 'sometimes', 'just', "i'm", 'by', 'until', 'be', 'might',
+     'or',
      'you', 'myself', "couldn't", 'it', 'had', 'them', 'with', 'of', 'at', "o'clock", '10', 'after', 'the', 'on', 'to',
      'up', 'and', 'not', 'for', 'were', 'am', 'but', 'are', 'since', 'been', 'when', 'where', 'what', 'a', 'an', 'ago',
      'was', 'i', 'he', 'she', 'we', 'they', 'my', 'their', 'her', 'his', 'him', 'jimmy', 'is', "he'll", 'will', "i'll",
      'as', 'along', 'there', 'now', 'in', 'that', 'then', "it's", "i'd", 'here', 'if', 'so', 'could', "you've", 'oh',
-     'from']
+     'from']  # 一些无关词汇
 with open(r'C:\Users\mayn\Desktop\编程\novel.txt', 'r') as f:
     x = f.readlines()
     m = list(map(filt, x))
