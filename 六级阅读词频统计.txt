@@ -1,0 +1,10 @@
+chinese 出现了 26次
+many 出现了 12次
+other 出现了 8次
+united 出现了 7次
+states 出现了 7次
+hawaii 出现了 7次
+this 出现了 6次
+some 出现了 6次
+more 出现了 6次
+because 出现了 6次

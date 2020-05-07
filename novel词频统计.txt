@@ -1,0 +1,10 @@
+man 出现了 18次
+well 出现了 10次
+time 出现了 10次
+long 出现了 9次
+years 出现了 8次
+west 出现了 8次
+said 出现了 8次
+policeman 出现了 8次
+have 出现了 8次
+store 出现了 5次
