@@ -36,11 +36,10 @@ with open(r'C:\Users\mayn\Desktop\编程\novel.txt', 'r') as f:
         while i in n:
             n.remove(i)
     dict1 = dict()
-    for i in set(n):
-        a = n.count(i)
-        dict1[i] = a
+    for i in n:
+        dict1[i]=dict1.get(i,0)+1
     b = [(x, y) for y, x in dict1.items()]
     b = sorted(b, reverse=True)
     result = ["%s 出现了 %d次\n" % (b[i][1], b[i][0]) for i in range(10)]
-    with open(r'C:\Users\mayn\Desktop\编程\novel词频统计.txt', 'w') as g:
-        g.writelines(result)
+with open(r'C:\Users\mayn\Desktop\编程\novel词频统计.txt', 'w') as g:
+    g.writelines(result)
